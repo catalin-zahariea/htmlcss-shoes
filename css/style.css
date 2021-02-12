@@ -35,11 +35,21 @@ header {
     text-align: center;
 }
 
+.menu-circle-link:hover {
+    box-shadow: 0px 2px 10px black;
+    background-color: greenyellow;
+    color: brown;
+}
+
 a {
     text-decoration: none;
     line-height: 40px;
     color: darkslategrey;
-} 
+}
+
+.menu-circle-link:hover a {
+    color: brown;
+}
 
 li {
     display: inline-block;
